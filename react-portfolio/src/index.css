@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;600;800&display=swap');
+
+*{
+	background-color: #222242;
+	font-family: 'Manrope', sans-serif;
+	color: white;
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	height: 100vh;
+	scroll-behavior: smooth;
+	cursor: url('http://www.rw-designer.com/cursor-extern.php?id=193732'), auto !important;
+}
+
+#cursorDiv {
+    position: fixed;
+    z-index: 7;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    will-change: transform;
+    mix-blend-mode: difference;
+	transform: translate3d(341.2px, 257.4px, 0px);
+}
+
+.cursor_circle {
+	transform: rotate(51deg), scale(1, 1);
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 8px;
+    top: 8px;
+    margin-top: -50%;
+    margin-left: -50%;
+    border-radius: 50%;
+    background-color: var(--accent-low-op);
+    border: 2px solid #fff;
+    transition: opacity .3s cubic-bezier(.25,1,.5,1),background-color .3s cubic-bezier(.25,1,.5,1),border-color .3s cubic-bezier(.25,1,.5,1),width .3s cubic-bezier(.25,1,.5,1),height .3s cubic-bezier(.25,1,.5,1);
+}
+
+
+.parallax {
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+}
+
+.container {
+	scroll-behavior: smooth;
+}
+
+main {
+	margin-right: 80px;
+}
+
+.welcomeAhmed{
+	color: #fff;
+	margin: 10px;
+	font-size: 120px;
+	font-family: 'Comforter', cursive;
+	position: relative;
+	text-shadow: red 2px 2px 2px;
+	background-color: transparent;
+}
+
+a{
+	color: inherit;
+}
+.about_para{
+margin-left: 10px;
+}
+blockquote{
+	margin: 5px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.navBarDiv {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.nav-bar {
+	height: 100%;
+	width: 70px;
+	display: inline-block;
+	position: fixed;
+	top: 100px;
+	z-index: 1;
+}
+
+.nav-ul {
+	list-style: none;
+	width: 100%;
+	margin: 2px;
+	padding: 2px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	writing-mode: vertical-rl;
+
+}
+
+.nav-ul>li {
+	padding: 3px;
+	margin-bottom: 20px;
+	cursor: crosshair;
+}
+
+.nav-ul>li:hover {
+	font-weight: bolder;
+}
+
+.nav-ul>li>a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: inherit;
+	cursor: crosshair;
+}
+
+.myPhotoDiv {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.myPhoto {
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+	animation-name: shine;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes shine{
+    0%,100%{
+        box-shadow: 0px 0px 32px -12px rgba(246, 180, 0, .5);
+    }
+    50%{
+        box-shadow: 0px 0px 32px 3px rgba(246, 180, 0, .5);
+    }
+}
+
+blockquote {
+	direction: ltr;
+}
+
+.animation_div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 110px;
+}
+
+.animation_img {
+	width: 60%;
+}
+
+
+
+.skills_ul {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+}
+
+.skills_ul>li {
+	display: flex;
+	border: 2px solid rgba(246, 180, 0, .5);
+	border-radius: 20px;
+	position: relative;
+	width: 400px;
+	height: 80px;
+	margin-bottom: 10px;
+	align-items: center;
+	justify-content: space-around;
+	text-align: center;
+}
+.skills_ul>li:hover{
+	transform: scale(1.1)
+}
+.skills_ul>li>img {
+	justify-content: center;
+	align-items: center;
+}
+
+
+.hoverdiv {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0%;
+	height: 100%;
+	background-color: #d6d316e0;
+}
+.hoverdiv:hover {
+	width: 100%;
+}
+
+
+.contact_ul {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.contact_ul>li>a {
+	text-decoration: none;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 400px;
+	height: 80px;
+	margin-bottom: 15px;
+	border-radius: 20px;
+	border: 2px solid rgba(246, 180, 0, .5);
+}
+.contact_ul>li>a:hover{
+	color: rgba(246, 180, 0, .5);
+}
+.icon {
+	width: 44px;
+	cursor: pointer;
+}
+
+.icon:hover {
+	fill: rgba(246, 180, 0, .5);
+}
+
+#newsLetter>input,
+#newsLetter>button {
+	padding: 14px;
+	border-radius: 20px;
+	border: none;
+	box-shadow: 8px 8px 30px black;
+}
+
+#newsLetter>button:hover {
+	cursor: pointer;
+}
+
+#newsLetter>label {
+	display: block;
+}
+
+footer {
+	height: 24px;
+	background-color: rgba(246, 180, 0, .5);
+	margin: 0px;
+	padding: 0px;
+}
+
+footer>p {
+	margin: 0px;
+	padding: 0px;
+	font-size: 18px;
+	text-align: center;
+	background-color: rgba(246, 180, 0, .5);
+}
+
+h2 {
+	margin-left: 30px;
+	font-family: 'Comforter', cursive;
+	position: relative;
+	text-shadow: red 2px 2px 2px;
+}
