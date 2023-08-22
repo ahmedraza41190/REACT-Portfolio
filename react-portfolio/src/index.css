@@ -12,33 +12,10 @@ body {
 	height: 100vh;
 	scroll-behavior: smooth;
 	cursor: url('http://www.rw-designer.com/cursor-extern.php?id=193732'), auto !important;
+	
 }
 
-#cursorDiv {
-    position: fixed;
-    z-index: 7;
-    left: 0;
-    top: 0;
-    pointer-events: none;
-    will-change: transform;
-    mix-blend-mode: difference;
-	transform: translate3d(341.2px, 257.4px, 0px);
-}
 
-.cursor_circle {
-	transform: rotate(51deg), scale(1, 1);
-    width: 50px;
-    height: 50px;
-    position: relative;
-    left: 8px;
-    top: 8px;
-    margin-top: -50%;
-    margin-left: -50%;
-    border-radius: 50%;
-    background-color: var(--accent-low-op);
-    border: 2px solid #fff;
-    transition: opacity .3s cubic-bezier(.25,1,.5,1),background-color .3s cubic-bezier(.25,1,.5,1),border-color .3s cubic-bezier(.25,1,.5,1),width .3s cubic-bezier(.25,1,.5,1),height .3s cubic-bezier(.25,1,.5,1);
-}
 
 
 .parallax {

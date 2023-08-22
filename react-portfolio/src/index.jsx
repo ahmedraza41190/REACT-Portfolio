@@ -1,13 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import './index.css';
-import githubLogo from './github.png'
-import terminalLogo from './terminal.png'
-
-function App() {
+import githubLogo from './github.png';
+import terminalLogo from './terminal.png';
+function Hi() {
   return (
-    <>
-
+    <div>
+   
       <div id="top"></div>
       <section className="parallax">
         <h1 className="welcomeAhmed" dataspeed="2">Ahmed Raza</h1>
@@ -35,17 +34,18 @@ function App() {
       </div>
       <main>
         <div className="center">
-          <blockquote>وَأَن لَّيْسَ لِلْإِنسَـٰنِ إِلَّا مَا سَعَىٰ
+          <blockquote>وَأَن لَّيْسَ لِلْإِنسَـٰنِ إِلَّا مَا سَعَىٰ  
             <br />
             Man gets whatever he strives for.💚
           </blockquote>
         </div>
         <hr />
+        
         <h2 id="about">ABOUT</h2>
         <p className="about_para">
           Hi, I am a Full-Stack Web Developer born and rased in <a
-            href="https://en.wikipedia.org/wiki/Karachi">Karachi, Pakistan</a> Who's very Passionate
-          about Programming
+            href="https://en.wikipedia.org/wiki/Karachi">Karachi, Pakistan.</a>And currently I am a student of BSCS in "Orasoft Institute".
+            And I am learning web and mobile app development course in "SMIT" and also I am learning web 3.0 and Metaverse in "PIAIC".
         </p><br /><br /><br /><br />
         <hr />
         <h2 id="skills">SKILLS</h2>
@@ -143,9 +143,8 @@ function App() {
       <footer>
         <p>Build by : Ahmed Raza</p>
       </footer>
-    </>
+    </div>
   );
 }
 
-ReactDOM.render(<App />, document.querySelector("#root"));
-
+ReactDOM.render(<Hi />, document.querySelector("#root"));
