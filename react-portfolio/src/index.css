@@ -11,7 +11,7 @@ body {
 	margin: 0px;
 	height: 100vh;
 	scroll-behavior: smooth;
-	cursor: url('http://www.rw-designer.com/cursor-extern.php?id=193732'), auto !important;
+	cursor: url('./cursor.png'), auto !important;
 	
 }
 
