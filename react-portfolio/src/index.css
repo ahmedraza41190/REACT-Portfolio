@@ -50,7 +50,7 @@ main {
 	z-index: 1;
 }
 
-a{
+link{
 	color: inherit;
 	z-index: 1;
 }
@@ -113,7 +113,7 @@ blockquote{
 	z-index: 1;
 }
 
-.nav-ul>li>a {
+.nav-ul>li>link {
 	text-decoration: none;
 	text-transform: uppercase;
 	color: inherit;
@@ -221,7 +221,7 @@ blockquote {
 	z-index: 1;
 }
 
-.contact_ul>li>a {
+.contact_ul>li>link {
 	text-decoration: none;
 	display: flex;
 	justify-content: space-around;
@@ -233,7 +233,7 @@ blockquote {
 	border: 2px solid rgba(246, 180, 0, .5);
 	z-index: 1;
 }
-.contact_ul>li>a:hover{
+.contact_ul>li>link:hover{
 	color: rgba(246, 180, 0, .5);
 	z-index: 1;
 }
