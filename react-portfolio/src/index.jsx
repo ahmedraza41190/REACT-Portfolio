@@ -3,10 +3,27 @@ import ReactDOM from "react-dom";
 import './index.css';
 import githubLogo from './github.png';
 import terminalLogo from './terminal.png';
+import Particle from "./components/particles";
+import AnimatedCursor from "react-animated-cursor"
 function Hi() {
+
   return (
     <div>
-   
+      <AnimatedCursor
+  innerSize={8}
+  outerSize={35}
+  innerScale={1}
+  outerScale={1.7}
+  outerAlpha={0}
+  outerStyle={{
+    border: '3px solid var(--cursor-color)'
+  }}
+  innerStyle={{
+    backgroundColor: 'rgba(246, 180, 0, .5)'
+  }}
+/>
+      <Particle/>
+      
       <div id="top"></div>
       <section className="parallax">
         <h1 className="welcomeAhmed" dataspeed="2">Ahmed Raza</h1>
@@ -140,9 +157,10 @@ function Hi() {
 
         </ul>
       </main>
-      <footer>
-        <p>Build by : Ahmed Raza</p>
-      </footer>
+      <div className="footer">
+        <p className="footer-p">Build by : Ahmed Raza</p>
+      </div>
+      
     </div>
   );
 }

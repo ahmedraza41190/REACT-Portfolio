@@ -1,9 +1,11 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;600;800&display=swap');
 
 *{
 	background-color: #222242;
 	font-family: 'Manrope', sans-serif;
 	color: white;
+	z-index: 1;
 }
 
 body {
@@ -11,8 +13,7 @@ body {
 	margin: 0px;
 	height: 100vh;
 	scroll-behavior: smooth;
-	cursor: url('./cursor.png'), auto !important;
-	
+	z-index: 1;
 }
 
 
@@ -25,15 +26,17 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	
+	z-index: 1;
 }
 
 .container {
 	scroll-behavior: smooth;
+	z-index: 1;
 }
 
 main {
 	margin-right: 80px;
+	z-index: 1;
 }
 
 .welcomeAhmed{
@@ -44,27 +47,36 @@ main {
 	position: relative;
 	text-shadow: red 2px 2px 2px;
 	background-color: transparent;
+	z-index: 1;
 }
 
 a{
 	color: inherit;
+	z-index: 1;
 }
 .about_para{
 margin-left: 10px;
+z-index: 1;
+color: #fff;
+position: relative;
+text-shadow: black 2px 2px 2px;
 }
 blockquote{
 	margin: 5px;
 	margin-top: 30px;
 	margin-bottom: 30px;
+	z-index: 1;
 }
 .center{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	z-index: 1;
 }
 .navBarDiv {
 	display: flex;
 	justify-content: flex-end;
+	z-index: 1;
 }
 
 .nav-bar {
@@ -86,17 +98,19 @@ blockquote{
 	justify-content: center;
 	align-items: center;
 	writing-mode: vertical-rl;
-
+	z-index: 1;
 }
 
 .nav-ul>li {
 	padding: 3px;
 	margin-bottom: 20px;
 	cursor: crosshair;
+	z-index: 1;
 }
 
 .nav-ul>li:hover {
 	font-weight: bolder;
+	z-index: 1;
 }
 
 .nav-ul>li>a {
@@ -104,12 +118,14 @@ blockquote{
 	text-transform: uppercase;
 	color: inherit;
 	cursor: crosshair;
+	z-index: 1;
 }
 
 .myPhotoDiv {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	z-index: 1;
 }
 
 .myPhoto {
@@ -119,6 +135,7 @@ blockquote{
 	animation-name: shine;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+	z-index: 1;
 }
 @keyframes shine{
     0%,100%{
@@ -131,6 +148,7 @@ blockquote{
 
 blockquote {
 	direction: ltr;
+	z-index: 1;
 }
 
 .animation_div {
@@ -138,10 +156,12 @@ blockquote {
 	justify-content: center;
 	align-items: center;
 	height: 110px;
+	z-index: 1;
 }
 
 .animation_img {
 	width: 60%;
+	z-index: 1;
 }
 
 
@@ -153,7 +173,7 @@ blockquote {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-
+    z-index: 1;
 }
 
 .skills_ul>li {
@@ -167,6 +187,7 @@ blockquote {
 	align-items: center;
 	justify-content: space-around;
 	text-align: center;
+	z-index: 1;
 }
 .skills_ul>li:hover{
 	transform: scale(1.1)
@@ -174,6 +195,7 @@ blockquote {
 .skills_ul>li>img {
 	justify-content: center;
 	align-items: center;
+	z-index: 1;
 }
 
 
@@ -184,6 +206,7 @@ blockquote {
 	width: 0%;
 	height: 100%;
 	background-color: #d6d316e0;
+	z-index: 1;
 }
 .hoverdiv:hover {
 	width: 100%;
@@ -195,6 +218,7 @@ blockquote {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	z-index: 1;
 }
 
 .contact_ul>li>a {
@@ -207,13 +231,16 @@ blockquote {
 	margin-bottom: 15px;
 	border-radius: 20px;
 	border: 2px solid rgba(246, 180, 0, .5);
+	z-index: 1;
 }
 .contact_ul>li>a:hover{
 	color: rgba(246, 180, 0, .5);
+	z-index: 1;
 }
 .icon {
 	width: 44px;
 	cursor: pointer;
+	z-index: 1;
 }
 
 .icon:hover {
@@ -226,29 +253,38 @@ blockquote {
 	border-radius: 20px;
 	border: none;
 	box-shadow: 8px 8px 30px black;
+	z-index: 1;
 }
 
 #newsLetter>button:hover {
 	cursor: pointer;
+	z-index: 1;
 }
 
 #newsLetter>label {
 	display: block;
+	z-index: 1;
 }
 
-footer {
+.footer {
 	height: 24px;
 	background-color: rgba(246, 180, 0, .5);
 	margin: 0px;
 	padding: 0px;
+	z-index: 1;
 }
 
-footer>p {
+.footer-p {
 	margin: 0px;
 	padding: 0px;
 	font-size: 18px;
 	text-align: center;
 	background-color: rgba(246, 180, 0, .5);
+	z-index: 1;
+	font-family: 'Comforter', cursive;
+	position: relative;
+	text-shadow: red 2px 2px 2px;
+	z-index: 1;
 }
 
 h2 {
@@ -256,4 +292,5 @@ h2 {
 	font-family: 'Comforter', cursive;
 	position: relative;
 	text-shadow: red 2px 2px 2px;
+	z-index: 1;
 }
