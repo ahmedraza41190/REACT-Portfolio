@@ -50,12 +50,12 @@ main {
 	z-index: 1;
 }
 
-link{
+a{
 	color: inherit;
 	z-index: 1;
 }
 .about_para{
-margin-left: 10px;
+margin-left: 50px;
 z-index: 1;
 color: #fff;
 position: relative;
@@ -169,7 +169,8 @@ blockquote {
 .skills_ul {
 	list-style: none;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
@@ -183,7 +184,7 @@ blockquote {
 	position: relative;
 	width: 400px;
 	height: 80px;
-	margin-bottom: 10px;
+	margin: 15px;
 	align-items: center;
 	justify-content: space-around;
 	text-align: center;
@@ -214,26 +215,31 @@ blockquote {
 
 
 .contact_ul {
+
 	list-style: none;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
 	align-items: center;
-	z-index: 1;
+	text-align: center;
+    z-index: 1;
 }
 
-.contact_ul>li>link {
-	text-decoration: none;
+.contact_ul>li>a {
 	display: flex;
-	justify-content: space-around;
-	align-items: center;
+	border: 2px solid rgba(246, 180, 0, .5);
+	border-radius: 20px;
+	position: relative;
 	width: 400px;
 	height: 80px;
-	margin-bottom: 15px;
-	border-radius: 20px;
-	border: 2px solid rgba(246, 180, 0, .5);
+	margin: 10px;
+	align-items: center;
+	justify-content: space-around;
+	text-align: center;
 	z-index: 1;
 }
-.contact_ul>li>link:hover{
+.contact_ul>li>a:hover{
 	color: rgba(246, 180, 0, .5);
 	z-index: 1;
 }
@@ -241,6 +247,7 @@ blockquote {
 	width: 44px;
 	cursor: pointer;
 	z-index: 1;
+	color: black;
 }
 
 .icon:hover {
