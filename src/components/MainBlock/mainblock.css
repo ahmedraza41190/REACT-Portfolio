@@ -12,12 +12,6 @@
     left: 15%;
 }
 
-.Helloh1 {
-    color: rgb(238, 238, 238);
-    font-family: custom2;
-    letter-spacing: 7px;
-}
-
 .namePara {
     font-size: 80px;
     color: rgb(238, 238, 238);
@@ -77,9 +71,7 @@
 .fbIcon, .instaIcon, .linkIcon {
     font-size: 22px !important;
     color: rgb(255, 255, 255);
-
 }
-
 
 .githubDiv {
     margin-top: 30px;
@@ -108,8 +100,7 @@
         left: 15%;
     }
     .Helloh1 {
-        font-size: 25px !important;
-        letter-spacing: 7px;
+        width: 300px;
     }
     .namePara {
         font-size: 60px;
@@ -127,11 +118,11 @@
     }
     .avatarDiv {
         position: absolute;
-        bottom: 0;
+        top: 100px;
         right: 10%;
     }
     .avatarDiv img {
-        width: 250px;
+        width: 170px;
     }
 }
 
@@ -145,8 +136,7 @@
         left: 15%;
     }
     .Helloh1 {
-        font-size: 20px !important;
-        letter-spacing: 5px;
+        width: 300px;
     }
     .namePara {
         font-size: 45px;
@@ -168,7 +158,7 @@
         right: 10%;
     }
     .avatarDiv img {
-        width: 200px;
+        width: 170px;
     }
     .githubDiv {
         margin-top: 40px;
@@ -191,8 +181,7 @@
         left: 10%;
     }
     .Helloh1 {
-        font-size: 22px !important;
-        letter-spacing: 5px;
+        width: 300px;
     }
     .wavingIcon{
         font-size: 30px;
@@ -211,7 +200,7 @@
         font-size: 25px;
     }
     .avatarDiv {
-        display: none;
+        width: 170px;
     }
     .socialLinks {
         top:auto;
@@ -224,5 +213,52 @@
         align-items: center;
         padding: 0px;
         box-shadow: 0 0 20px rgb(0, 0, 0);
+    }
+}@media (max-width:600px) {
+    .mainBlock {
+        height: 500px;
+    }
+    .IntroDiv {
+        position: absolute;
+        top: 15%;
+        left: 10%;
+    }
+    .Helloh1 {
+        width: 250px;
+    }
+    .wavingIcon{
+        font-size: 30px;
+    }
+    .namePara {
+        font-size: 35px;
+        line-height: 20px;
+        letter-spacing: 2px;
+    }
+    .expDiv {
+        display: block;
+        width: 300px;
+    }
+    .expPara {
+        line-height: 20px;
+        font-size: 25px;
+    }
+    .avatarDiv {
+        width: 140px;
+    }
+    .socialLinks {
+        top:auto;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0px;
+        box-shadow: 0 0 20px rgb(0, 0, 0);
+    }
+}@media (max-width:500px) {
+    .avatarDiv {
+        display: none;
     }
 }

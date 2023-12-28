@@ -12,6 +12,7 @@
     "@wellyshen/use-web-animations": "^0.9.1",
     "aos": "^2.3.4",
     "react": "^18.2.0",
+    "react-animated-cursor": "^2.11.2",
     "react-dom": "^18.2.0",
     "react-icons": "^4.3.1",
     "react-scripts": "^5.0.1",

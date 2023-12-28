@@ -6,11 +6,13 @@ import Skills from './components/skills/skill';
 import Work from './components/work/work';
 import Contact from './components/contact/contact';
 import CopyRight from './components/copyright/copyright';
+import Cursor from "./components/cursor/cursor"
 
 
 function App() {
   return (
     <div className="App">
+      <Cursor />
       <Header />
       <MainBlock />
       <About />

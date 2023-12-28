@@ -8,6 +8,9 @@ import { RiInstagramFill } from 'react-icons/ri'
 import { VscGithubInverted } from 'react-icons/vsc'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import MyAvatar from "../../images/my-avatar.png"
+import Capture from "../../images/Capture__1_-removebg-preview.png"
+
 
 
 function MianBlock() {
@@ -84,7 +87,7 @@ function MianBlock() {
                     </a>
                 </div>
                 <div className='avatarDiv'>
-                    <img src={Avatar} width='300px' alt="" />
+                    <img src={Capture} width='170px' alt="" />
                 </div>
             </div>
 
